@@ -1,6 +1,4 @@
-#from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
-from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.document_loaders import SnowflakeLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.llms import OpenAI
